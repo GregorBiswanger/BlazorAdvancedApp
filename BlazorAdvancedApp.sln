@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAdvancedApp", "BlazorAdvancedApp\BlazorAdvancedApp.csproj", "{A94179ED-FEE5-47AA-9821-B01EEE2473CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxNetSample", "RxNetSample\RxNetSample.csproj", "{E14566E7-4BF9-4D12-A070-D558875855F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A94179ED-FEE5-47AA-9821-B01EEE2473CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94179ED-FEE5-47AA-9821-B01EEE2473CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94179ED-FEE5-47AA-9821-B01EEE2473CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94179ED-FEE5-47AA-9821-B01EEE2473CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E14566E7-4BF9-4D12-A070-D558875855F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E14566E7-4BF9-4D12-A070-D558875855F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E14566E7-4BF9-4D12-A070-D558875855F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E14566E7-4BF9-4D12-A070-D558875855F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B5AD76B-BFAF-4DB3-A753-E40103613007}
+	EndGlobalSection
+EndGlobal

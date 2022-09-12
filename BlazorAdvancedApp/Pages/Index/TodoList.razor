@@ -1,0 +1,25 @@
+﻿<h1>MyTodoApp</h1>
+
+@if (IsEditMode)
+{
+    <div>
+        <h3>Edit Todo:</h3>
+        <input type="text" @bind="TodoText" />
+        <button @onclick="UpdateTodo">OK</button>
+    </div>
+}
+else
+{
+    <div>
+        <h3>New Todo:</h3>
+        <input type="text" @bind="TodoText" />
+        <button @onclick="AddTodo">OK</button>
+    </div>
+}
+
+<TodoListBox Todos="Todos" 
+    UpdateTodoIndex="UpdateTodoIndex"
+    EditTodoClick="EditTodo" 
+    RemoveTodoClick="RemoveTodo"></TodoListBox>
+
+<h3>@JokeText</h3>

@@ -1,0 +1,9 @@
+﻿<ul>
+    @foreach (var item in Todos.Select((Todo, Index) => new { Todo, Index }))
+    {
+        <li>
+            <span @onclick="() => EditTodo(item.Index)" class="@EditItemStyles(item.Index)">@item.Todo.Text</span>
+            <button @onclick="() => RemoveTodo(item.Index)">X</button>
+        </li>
+    }
+</ul>

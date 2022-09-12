@@ -1,0 +1,14 @@
+﻿.edit-item {
+    background-color: blue;
+    color: white;
+}
+
+.item {
+    background-color: yellow;
+    color: black;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
